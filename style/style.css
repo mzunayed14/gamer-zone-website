@@ -74,6 +74,51 @@ width: 100%;
 }
 
 
+/* Game section styles */
+
+
+
+.game-section{
+   
+    display: grid;
+    margin: 50px auto;
+    max-width: 1030px;
+    min-width: 426px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+.game-h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 15px;
+}
+.game-span{
+    color: #F948B2;  
+}
+.game-p{
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 20px ;
+    color:gray;
+}
+
+.game-img{
+    color: rgba(0, 0, 0, 0.132);
+}
+.game-child1 img{
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.132);
+  
+}
+
+
+.game-child1 p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
 /* Hero section styles */
 
 
@@ -178,50 +223,6 @@ font-size: 13px;
 }
 
 
-/* Game section styles */
-
-
-
-.game-section{
-   
-    display: grid;
-    margin: 50px auto;
-    max-width: 1030px;
-    min-width: 426px;
-    grid-template-columns: repeat(4,1fr);
-    gap: 12px;
-}
-.game-h2{
-    text-align: center;
-    font-size: 1.7rem;
-    margin-top: 15px;
-}
-.game-span{
-    color: #F948B2;  
-}
-.game-p{
-    text-align: center;
-    font-size: .8rem;
-    margin-top: 20px ;
-    color:gray;
-}
-
-.game-img{
-    color: rgba(0, 0, 0, 0.132);
-}
-.game-child1 img{
-    width: 100%;
-    height: 100%;
-    color: rgba(0, 0, 0, 0.132);
-  
-}
-
-
-.game-child1 p{
-    color: gray;
-    font-size: 13px;
-    margin-top: 8px;
-}
 
 
 /* Online game section styles */
