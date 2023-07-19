@@ -1,4 +1,5 @@
-/* media quary start */
+/* Resposive */
+
 @media screen and (max-width:882px) {
     .nav-container{
         flex-direction: row;
@@ -10,7 +11,6 @@
         height: 70vh;
       
     }
-    /* game section start */
     .game-section{
     
         display: grid;
@@ -32,12 +32,14 @@
     .online-child1{
         padding-left:25px;
     }
-    /* button section start */
+   
     .parent{
         grid-template-columns: repeat(3,1fr);
     }
    
-    /* button section end */
+    
+    /* responsive for other devices */
+
 }
 @media screen and (max-width:426px) {
     .nav-container{

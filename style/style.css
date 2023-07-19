@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+
+
+/* nav styles */
+
+
 .nav-container{
 
 min-height:100px ;
@@ -13,6 +18,11 @@ align-items: center;
 color: white;
 width: 100%;
 }
+
+
+/* inside nav container styles */
+
+
 .nav-child1{
     display: flex;
     align-items: center;
@@ -22,6 +32,11 @@ width: 100%;
     width: 50px;
     height: 25px;
 }
+
+
+/* another section styles */
+
+
 .span{
     font-weight: bold;
     color: #F948B2; 
@@ -39,6 +54,8 @@ width: 100%;
     list-style: none;
     color: black;
 }
+
+
 .btn{
     border: none;
     border-radius: 5px;
@@ -55,7 +72,11 @@ width: 100%;
     color: red;
     font-size: 15px;  
 }
-/* navber section end */
+
+
+/* Hero section styles */
+
+
 .hero-section{
    justify-content: space-between;
     width:100vw;
@@ -156,8 +177,11 @@ font-size: 13px;
     font-size: 12px;
 }
 
-/* hero section end */
-/* game section start */
+
+/* Game section styles */
+
+
+
 .game-section{
    
     display: grid;
@@ -198,8 +222,12 @@ font-size: 13px;
     font-size: 13px;
     margin-top: 8px;
 }
-/* game section end */
-/* online game section start */
+
+
+/* Online game section styles */
+
+
+
 .online-parent{
     display: flex;
     margin: 100px auto;
@@ -243,8 +271,12 @@ font-size: 13px;
     margin-top: 20px;
 }
         
-/* online game section end  */
-/* button section staert */
+
+
+/* button styles */
+
+
+
 .bg{
     width: 100%;
     background-color: #ecc3db0f ;
@@ -284,8 +316,10 @@ font-size: 13px;
     border: 1px solid red;
 }
 
-/* button section end */
-/* footer section start */
+
+/* Footer section styles */
+
+
 .main{
     margin: 100px auto;
     max-width: 100%;
@@ -340,6 +374,4 @@ font-size: 13px;
     font-size: 11px;
    letter-spacing: 1px;
 }
-/* footer section end */
-
 
