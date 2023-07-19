@@ -1,0 +1,174 @@
+/* media quary start */
+@media screen and (max-width:882px) {
+    .nav-container{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .hero-section{
+        width:100vw;
+        display: flex;
+        height: 70vh;
+      
+    }
+    /* game section start */
+    .game-section{
+    
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns:repeat(2,1fr);
+        padding: 20px 40px;
+        gap: 20px;
+        
+    }
+    .game-child1{
+        margin-top: 30px;
+        
+    }
+    .online-child2{
+        padding-top:5rem;
+        padding-left: 60px; 
+        padding-right: 45px;          
+    }
+    .online-child1{
+        padding-left:25px;
+    }
+    /* button section start */
+    .parent{
+        grid-template-columns: repeat(3,1fr);
+    }
+   
+    /* button section end */
+}
+@media screen and (max-width:426px) {
+    .nav-container{
+        flex-direction: column;
+        padding: 15px;
+        width: 100%;
+    }
+    .nav-child2{
+        flex-direction: column;
+    }
+    .nav-child2{
+        margin-top: 20px;
+    }
+    .hero-section{
+       display: grid;
+       grid-template-columns: 1fr;
+       height: 100vh;
+       width: 100vw;
+       margin-top: 5%;
+        
+    }
+    .hero-child2{
+        width: 100vw;
+        padding: 10px ;
+        margin-bottom: 0%;
+    }
+    .hero-child1{
+        width: 100vw;
+        padding: 10px ;
+        /* margin-top: 5%; */
+        background-image: url("images/Group 14.png");
+    }
+    /* game section start */
+    .game-section{
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns:1fr;
+        
+    }
+    .game-child1{
+        margin-top: 1px;
+        margin-bottom: -50px;
+    }
+    .game-child1 p{
+        color: gray;
+        font-size: 13px;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .game-child1 img{
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .game-p{
+        margin-top: 5%;
+    }
+    .game-h2{
+        margin-top: 30%;
+    }
+
+    /* online section start */
+
+
+    .online-parent{
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .online-child2{
+        padding:2rem;
+        padding-left: 60px;
+        text-align: center;
+    }
+    .online-child2 p{
+        margin-top: 30px;
+    }
+    .online-child1{
+        padding-left:25px;
+    }
+    /* online section end */
+    /* button section :start */
+    .parent{
+        margin-top: 20px;
+        padding: 6px 26px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+        width: 50%;
+        padding: 4px 10px;
+        row-gap: 20px;
+        background-color: #ecc3db0f ;
+        padding-top: 50px;
+    }
+    .child p{
+        font-size: 10px;
+    }
+    .child4{
+        visibility: hidden;
+    }
+   .child{
+     padding: 0 20px;
+   }
+    /* button section :ends */
+ /* footer section start */
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-left: 50px;
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+    padding-left: 50px;
+
+}
+.link{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 50px;
+}
+/* footer section ends */
+
+}
